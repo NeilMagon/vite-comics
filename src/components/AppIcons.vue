@@ -40,7 +40,7 @@ export default {
         <div class="container p-5">
             <div class="row">
                 <div v-for="product in products" class="col d-flex align-items-center">
-                    <div>
+                    <div class="image">
                         <img :src="generateImg(product.img)" :alt="product.text">
                     </div>
                     <a class="text-white ps-2" href="#">{{product.text}}</a>
@@ -55,8 +55,14 @@ export default {
 
     section{
         background-color: $brand-primary;
-        img{
+        .image{
             width: 3rem;
+            height: 3rem;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
         }
     }
 </style>
