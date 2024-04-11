@@ -15,7 +15,7 @@ export default {
                 'News',
                 'Shop'
         ],
-        activeItem: null
+        activeItem: 1
         }
     },
     methods: {
