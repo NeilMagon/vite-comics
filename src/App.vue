@@ -26,12 +26,12 @@
     <AppIcons></AppIcons>
     <AppInfo></AppInfo>
   </main>
-  
+
   <footer>
     <AppFooter></AppFooter>
   </footer>
 </template>
 
-<style>
-
+<style lang="scss">
+  @use './style/generic' as *;
 </style>
