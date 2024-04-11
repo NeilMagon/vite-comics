@@ -13,10 +13,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../style/partials/variables' as *;
+    @use '../style/partials/variables' as *;
     .ms-black{
         background-color: $brand-secondary;
-        height: 200px;
+        height: 100px;
     }
     .ms-white{
         color: #fff;
