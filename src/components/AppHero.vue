@@ -97,7 +97,7 @@
     </section>
     <section class="ms-bg">
         <div class="container">
-            <div class="row g-3 py-4 mx-4">
+            <div class="row py-4 mx-4">
                 <Card v-for="comic in comics" :cardInfo="comic"></Card>
             </div>
             <div class="d-flex justify-content-center pb-3">
