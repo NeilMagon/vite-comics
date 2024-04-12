@@ -5,20 +5,32 @@ export default {
 </script>
 
 <template>
-    <section class="ms-black">
+    <section class="hero">
+        <img src="../assets/img/jumbotron.jpg" alt="">
         <div class="container">
-            <h1 class="ms-white">Content goes here</h1>
+            <button type="button" class="btn btn-primary ms-m">
+                CURRENT SERIES
+            </button>
         </div>
+    </section>
+    <section>
+        
     </section>
 </template>
 
 <style scoped lang="scss">
     @use '../style/partials/variables' as *;
-    .ms-black{
-        background-color: $brand-secondary;
-        height: 100px;
-    }
-    .ms-white{
-        color: #fff;
+
+    .hero{
+        height: 25rem;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+        .ms-m{
+            margin-top: -1.875rem;
+        }
     }
 </style>

@@ -8,7 +8,7 @@ export default {
     <section class="ms-bg">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-5 d-flex gap-4">
+                <div class="col-5 d-flex gap-4 py-5">
                     <div>
                         <div class="text-white">
                             DC COMICS
@@ -111,7 +111,6 @@ export default {
                         </ul>
                     </div>
                 </div>
-                <div class="ms-img-bg col-7"></div>
             </div>
         </div>
     </section>
@@ -125,11 +124,10 @@ export default {
             background-size: cover;
             background-repeat: no-repeat;
         }
-        .ms-img-bg {
-            height: 400px;
+        .container {
             background-image: url(../assets/img/dc-logo-bg.png);
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: right;
         }
         ul {
             a {
